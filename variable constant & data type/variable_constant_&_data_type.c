@@ -14,7 +14,16 @@ void main() {
     printf("float data type = %f\n", myFloatNum);   // Format Specifier %f
     printf("double data type = %lf\n", myDoubleNum); // Format Specifier %f or %lf
     printf("%character data type = c\n", myLetter); // Format Specifier %c
-    printf("string = %s", greetings); // Format Specifier %s
+    printf("string = %s\n\n", greetings); // Format Specifier %s
+
+    // constant
+    const int minutesPerHour = 60; // this is constant integer type data
+    const float PI = 3.14; // this is constant float type data
+    //PI = 3.17; // no value change in constant
+
+    // Print constant
+    printf("constant integer value = %d\n", minutesPerHour);
+    printf("constant float value = %f\n", PI);
 
     getch();
 }
