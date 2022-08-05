@@ -3,7 +3,7 @@
 
 void main()
 {
-    //Two-dimensional array
+    //Two-dimensional array traversing
     int arr[4][6]={
                     {3,2,4,1,6,5},
                     {2,4,1,3,5,6},
@@ -46,14 +46,6 @@ void main()
         printf("\n");
     }
     printf("Total sum of all array element = %d ", allSum);
-
-    //In the case of the first row
-    //printf("In the case of the first row\n");
-    //printf("%d ", arr[0][0]);
-    //printf("%d\n", arr[0][1]);
-
-
-
 
     getch();
 }
