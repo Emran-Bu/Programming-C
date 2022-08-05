@@ -31,7 +31,7 @@ void main()
     {
         for(j=0;j<=5; j++)
         {
-            printf("%d ", arr[i][j]);
+            printf("arr [%d][%d] = %d \n", i, j, arr[i][j]);
         }
         printf("\n");
     }
