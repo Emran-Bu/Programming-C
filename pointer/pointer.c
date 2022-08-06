@@ -26,7 +26,16 @@ void main()
     printf("&x = %d\n", &x);
     printf("*p = %d\n", *p);
     printf("&p = %d\n", &p);
-    printf("p = %d\n", p);
+    printf("p = %d\n\n", p);
+
+    int arr[] = {1, 4, 3, 5, 6};
+
+    int *k = &arr[3];
+
+    *k++;
+    printf("%d ", arr[4]);
+
+    printf("%d ", *k);
 
     getch();
 }
