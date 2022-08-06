@@ -3,7 +3,7 @@
 
 void subFunForSum(int, int); //parameterized sub function prototype
 void subFunForSub(); //non parameterized sub function prototype
-void subFunForSub();
+void subFunForArr();
 void main()
 {
     //printf("%d", subFun(10));
