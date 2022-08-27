@@ -13,7 +13,7 @@ void main() {
     printf("Integer data type = %d\n", myNum);  // Format Specifier %d or %i
     printf("float data type = %f\n", myFloatNum);   // Format Specifier %f
     printf("double data type = %lf\n", myDoubleNum); // Format Specifier %f or %lf
-    printf("%character data type = c\n", myLetter); // Format Specifier %c
+    printf("character data type = %c\n", myLetter); // Format Specifier %c
     printf("string = %s\n\n", greetings); // Format Specifier %s
 
     // constant

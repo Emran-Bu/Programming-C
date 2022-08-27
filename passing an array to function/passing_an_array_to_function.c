@@ -6,6 +6,7 @@ void main()
 {
     int arr[10] = { 10, 9, 7, 101, 23, 44, 12, 78, 34, 23};
     Bubble_sort(arr);
+    getch();
 }
 
 int Bubble_sort(int arr[])
